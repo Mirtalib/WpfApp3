@@ -1,0 +1,125 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500   " Width="350">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="txtBox1" Background="#FFD8D8D8">0</TextBox>
+        
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="btn1" 
+                    Background="Transparent"
+                    FontSize="42" Click="btn1_Click"
+                    >1</Button>
+            <Button x:Name="btn2"
+                    Background="Transparent"
+                    FontSize="42"
+                    Grid.Column="1"
+                    >2</Button>
+            <Button x:Name="btn3"
+                    Background="Transparent"
+                    FontSize="42"
+                    Grid.Column="2"
+                    >3</Button>
+            <Button x:Name="btnMin"
+                    Background="Transparent"
+                    FontSize="42"
+                    Grid.Column="3"
+                    >-</Button>
+            <Button x:Name="btn4"
+                    Background="Transparent"
+                    FontSize="42"
+                    Grid.Row="1"
+                    >4</Button>
+            <Button x:Name="btn5"
+                    Background="Transparent"
+                    FontSize="42"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    >5</Button>
+            <Button x:Name="btn6"
+                    Background="Transparent"
+                    FontSize="42"
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    >6</Button>
+            <Button x:Name="btnMult"
+                    Background="Transparent"
+                    FontSize="42"
+                    Grid.Row="1"
+                    Grid.Column="3"
+                    >+</Button>
+            <Button x:Name="btn7"
+                    Background="Transparent"
+                    FontSize="42"
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    >7</Button>
+            <Button x:Name="btn8"
+                    Background="Transparent"
+                    FontSize="42"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    >8</Button>
+            <Button x:Name="btn9"
+                    Background="Transparent"
+                    FontSize="42"
+                    Grid.Row="2"
+                    Grid.Column="2"
+                    >9</Button>
+            <Button x:Name="btn0"
+                    Background="Transparent"
+                    FontSize="42"
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    >0</Button>
+            <Button x:Name="btnComma"
+                    Background="Transparent"
+                    FontSize="42"
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    >,</Button>
+            <Button x:Name="btnEqu"
+                    Background="Transparent"
+                    FontSize="42"
+                    Grid.Row="3"
+                    Grid.Column="2"
+                    >=</Button>
+            <Button x:Name="btnD"
+                    Background="Transparent"
+                    FontSize="42"
+                    Grid.Row="2"
+                    Grid.Column="3"
+                    >/</Button>
+            <Button x:Name="btnD1"
+                    Background="Transparent"
+                    FontSize="42"
+                    Grid.Row="3"
+                    Grid.Column="3"
+                    >*</Button>
+
+        </Grid>
+        
+    </Grid>
+</Window>
