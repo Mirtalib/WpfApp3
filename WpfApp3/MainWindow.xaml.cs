@@ -109,7 +109,7 @@ namespace WpfApp3
                     {
                         if (index == 0)
                             break;
-                        else if (char.IsDigit(txtBox1.Text[index - 1]) || txtBox1.Text[index - 1] == '*' && btn.Content.ToString() != "*" && btn.Content.ToString() != "*")
+                        else if (char.IsDigit(txtBox1.Text[index - 1]) || txtBox1.Text[index - 1] == '*' && btn.Content.ToString() != "*")
                             txtBox1.Text += content;
                         break;
                     }
